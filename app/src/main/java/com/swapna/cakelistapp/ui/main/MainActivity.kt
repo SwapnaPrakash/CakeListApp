@@ -1,4 +1,4 @@
-package com.swapna.cakelistapp
+package com.swapna.cakelistapp.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
