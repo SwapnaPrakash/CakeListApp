@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CakeListApp</string>
+    <string name="loading">Loading\n</string>
 </resources>

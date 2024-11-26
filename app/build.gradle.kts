@@ -2,6 +2,7 @@ plugins {
     id ("com.android.application")
     id ("org.jetbrains.kotlin.android")
     id ("kotlin-kapt")
+    id ("com.google.dagger.hilt.android")
 }
 
 android {
@@ -83,6 +84,12 @@ dependencies {
     testImplementation("androidx.arch.core:core-testing:2.2.0")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
     testImplementation("app.cash.turbine:turbine:0.12.1")
+
+    // hilt
+    implementation("com.google.dagger:hilt-android:2.44")
+    kapt("com.google.dagger:hilt-android-compiler:2.44")
+
+    implementation("androidx.browser:browser:1.6.0")
 
     //UI test
     androidTestImplementation ("androidx.test.ext:junit:1.1.5")
